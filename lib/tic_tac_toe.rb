@@ -38,8 +38,8 @@ class TicTacToe
   end
 
   #position_taken
-  def position_taken(index)
-    
+  def position_taken ? (index)
+    ((@board[index] == "X") || (@board[index] == "O"))
   end
   
   #valid_move
