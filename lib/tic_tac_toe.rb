@@ -66,17 +66,17 @@ class TicTacToe
   end
   
   #full?
-  def full ?
+  def full 
     
   end
   
   #draw ?
-  def draw ?
+  def draw 
     
   end
   
   #over?
-  def over?
+  def over
     
   end
   
