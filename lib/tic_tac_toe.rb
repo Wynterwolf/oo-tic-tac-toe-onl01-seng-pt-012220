@@ -80,5 +80,9 @@ class TicTacToe
     
   end
   
+  #winner
+  def winner
+    
+  end
   
 end
