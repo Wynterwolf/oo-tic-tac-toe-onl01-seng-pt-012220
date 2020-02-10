@@ -25,19 +25,60 @@ class TicTacToe
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
   
+  #input_to_index
+  def input_to_index(input)
+    input.to_i -1
+  end
   
+  #move
+  def move()
+  
+  end
+
+  #position_taken
+  def position_taken
+    
+  end
+  
+  #valid_move
+  def valid_move
+    
+  end
+  
+  #current_player
   def current_player
     turn_count % 2 == 0 ? "X" : "O"
   end
  
+  #turn_count 
   def turn_count
     @board.count{|token| token == "X" || token == "O"}
   end
- 
-
-
   
-  def input_to_index(input)
-    input.to_i -1
+  #turn 
+  def turn
+    
   end
+  
+  #won?
+  def won?
+  
+  end
+  
+  #full?
+  def full ?
+    
+  end
+  
+  #draw ?
+  def draw ?
+    
+  end
+  
+  #over?
+  def over?
+    
+  end
+  
+  
 end
