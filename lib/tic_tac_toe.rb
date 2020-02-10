@@ -59,6 +59,7 @@ class TicTacToe
       if el == "X" || el == "O"
         counter += 1
     end
+    counter
     # @board.count{|token| token == "X" || token == "O"}
   end
   
