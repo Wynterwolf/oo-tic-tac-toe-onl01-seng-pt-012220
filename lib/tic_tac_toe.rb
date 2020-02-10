@@ -1,4 +1,5 @@
 class TicTacToe
+  
   #initialize
   def initialize(board = nil)
     @board = board || Array.new(9, " ")
@@ -37,7 +38,7 @@ class TicTacToe
   end
 
   #position_taken
-  def position_taken
+  def position_taken(index)
     
   end
   
