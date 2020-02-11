@@ -107,6 +107,10 @@ end
   #play 
   def play
     turn until over?
+    if winner
+      puts "Congradulations #{winner}"
+    else
+      puts "Cats Game!"
   end
   
   
