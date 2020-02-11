@@ -102,7 +102,6 @@ end
   #winner
   def winner
     won? ? @board[won?[0]] : nil
-    
   end
   
 end
