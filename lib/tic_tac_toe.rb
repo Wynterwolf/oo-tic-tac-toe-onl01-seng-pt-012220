@@ -88,8 +88,6 @@ end
     false
   end
   
-  end
-  
   #full?
   def full 
     
