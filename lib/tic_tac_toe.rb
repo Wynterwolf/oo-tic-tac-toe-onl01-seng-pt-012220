@@ -87,13 +87,11 @@ end
   #full?
   def full 
     turn_count == 9
-    #!@board.won?
-    
   end
   
   #draw ?
   def draw 
-    
+    full? || won?
   end
   
   #over?
