@@ -86,7 +86,7 @@ end
   
   #full?
   def full 
-    
+    turn_count == 9
   end
   
   #draw ?
