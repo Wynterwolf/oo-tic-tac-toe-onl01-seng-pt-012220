@@ -110,7 +110,7 @@ end
     if winner
       puts "Congradulations #{winner}"
     else
-      puts "Cats Game!"
+      puts "Cat's Game!"
   end
   
   
