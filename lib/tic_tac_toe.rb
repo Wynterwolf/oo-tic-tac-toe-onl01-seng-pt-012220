@@ -81,6 +81,8 @@ class TicTacToe
       winner
     end
   end
+  winner
+end
   
   #full?
   def full 
