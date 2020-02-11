@@ -85,7 +85,7 @@ class TicTacToe
 end
   
   #full?
-  def full 
+  def full? 
     turn_count == 9
   end
   
