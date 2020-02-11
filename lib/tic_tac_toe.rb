@@ -50,10 +50,6 @@ class TicTacToe
   #current_player
   def current_player
     turn_count % 2 == 0 ? "X" : "O"
-    
-    # or
-    
-    # turn_count.even ? "X" : "O"
   end
  
   #turn_count 
@@ -63,7 +59,14 @@ class TicTacToe
   
   #turn 
   def turn
-    
+    puts "Choose a number between 1 - 9"
+    input = gets.chomp
+    input = input_to_index(gets.chomp)
+    if valid_move?(index)
+      move(index, current_player)
+      display_board
+    else
+      turn
   end
   
   #won?
