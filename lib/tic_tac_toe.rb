@@ -106,8 +106,7 @@ end
   
   #play 
   def play
-    turn
-    over?
+    turn until over?
   end
   
   
