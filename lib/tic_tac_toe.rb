@@ -95,7 +95,7 @@ end
   end
   
   #over?
-  def over
+  def over?
     won? || draw?
   end
   
