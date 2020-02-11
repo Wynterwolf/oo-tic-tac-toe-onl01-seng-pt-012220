@@ -44,7 +44,7 @@ class TicTacToe
   
   #valid_move
   def valid_move?(index)
-    index.to_i.between?(1,9) && !position_taken?(input.to_i-1)    
+    return !position_taken?(index) && index > 0 && index < 9
   end
   
   #current_player
