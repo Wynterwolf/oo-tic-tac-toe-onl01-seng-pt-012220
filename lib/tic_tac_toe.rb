@@ -67,6 +67,7 @@ class TicTacToe
     else
       turn
     end
+  end
   
   #won?
   def won?
