@@ -104,4 +104,10 @@ end
     won? ? @board[won?[0]] : nil
   end
   
+  #play 
+  def play
+    turn
+  end
+  
+  
 end
