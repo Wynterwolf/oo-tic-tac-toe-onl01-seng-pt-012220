@@ -91,7 +91,7 @@ end
   
   #draw ?
   def draw 
-    full? || won?
+    full? || !won?
   end
   
   #over?
