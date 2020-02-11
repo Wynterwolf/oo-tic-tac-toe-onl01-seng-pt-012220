@@ -90,7 +90,7 @@ end
   end
   
   #draw ?
-  def draw 
+  def draw? 
     full? && !won?
   end
   
