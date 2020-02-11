@@ -36,6 +36,7 @@ class TicTacToe
   if valid_move?(indeX)
     @board[index] = token
   end
+end
 
   #position_taken
   def position_taken?(index)
